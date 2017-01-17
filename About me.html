@@ -1,13 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bootstrap Me</title>
+  <title>Zeke Fraint</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="zeke1.JPG" width="80" height="80">
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="About me.html">About Me</a></li>
+        <li><a href="like.html">Interests</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places I've Lived <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Deerfield, IL</a></li>
+            <li><a href="#">Jerusalem, Israel</a></li>
+            <li><a href="#">Boston, MA</a></li>
+            <li><a href="#">Tel Aviv, Israel</a></li>
+            <li><a href="#">New York, NY</a></li>
+            <li><a href="#">Washington, DC</a></li>
+            <li><a href="#">Chicago, IL</a></li>
+          </ul>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schools I've Attended <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">IDC</a></li>
+              <li><a href="#">Gtown</a></li>
+              <li><a href="#">Kellogg</a></li>
+            </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
   <div class="container">
     <div id="wrapper">
     <h1>Zeke Fraint</h1>
@@ -17,10 +61,11 @@
     <h2>Student/Consultant</h2>
     <h3>Chicago, IL</h3>
     <div>
-      <h4 class="in touch">Connect With Me</h4>
+      <h4 ID="in touch">Connect With Me</h4>
       <ul>
         <li><a href="mailto:e-fraint@kellogg.northwestern.edu">Email</a></li>
-        <li><a href="http://twitter.com/zfraint">Twitter</a></li>
+        <li><a href="http://twitter.com/zfraint" class="btn btn-sm btn-success" id="Social"><i class="fa fa-twitter"></i>
+            Twitter</a></li>
         <li><a href="http://facebook.com/walterwhite">Facebook</a></li>
         <li><a href="https://www.linkedin.com/in/zekefraint">LinkedIn<a></li>
       </ul>
